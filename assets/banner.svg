@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ff007a"/>
+      <stop offset="45%" stop-color="#7a00ff"/>
+      <stop offset="100%" stop-color="#00ffd5"/>
+    </linearGradient>
+    <!-- subtle noise texture -->
+    <filter id="noise">
+      <feTurbulence baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="t"/>
+      <feColorMatrix in="t" type="saturate" values="0"/>
+      <feBlend in="SourceGraphic" in2="t" mode="screen"/>
+    </filter>
+    <style>
+      .title{font:700 42px/1.1 system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; fill: url(#g);}
+      .subtitle{font:400 18px/1.2 system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; fill:#e9f7f5; opacity:0.85}
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" fill="#06060a"/>
+
+  <!-- chaotic diagonal bands -->
+  <g opacity="0.16">
+    <rect x="-400" y="-40" width="1400" height="160" transform="rotate(-18 300 60)" fill="url(#g)"/>
+    <rect x="-500" y="80" width="1400" height="140" transform="rotate(-12 300 150)" fill="#0f0f12"/>
+    <rect x="-600" y="170" width="1500" height="120" transform="rotate(-6 300 230)" fill="url(#g)"/>
+  </g>
+
+  <!-- central noisy blob (minimal but 'alive') -->
+  <g transform="translate(120,10)">
+    <path d="M420 40c-60-44-160-30-230 6s-110 92-72 156 138 80 200 56 136-106 102-198z"
+          fill="url(#g)" opacity="0.95" filter="url(#noise)"/>
+  </g>
+
+  <!-- Title text (minimal words) -->
+  <text x="620" y="120" class="title">rudra • minimal yet chaotic</text>
+  <text x="620" y="155" class="subtitle">minimal — weird — unmistakable</text>
+
+  <!-- small decorative glitches on the right -->
+  <g transform="translate(1060,40)" fill="#ffffff" opacity="0.08">
+    <rect x="0" y="0" width="6" height="28"/>
+    <rect x="12" y="6" width="9" height="18"/>
+    <rect x="26" y="-4" width="4" height="36"/>
+  </g>
+
+  <!-- accessibility title (invisible to light readers but available as alt/title) -->
+  <title>Banner: neon gradient blob with diagonal bands — minimal but crazy</title>
+</svg>

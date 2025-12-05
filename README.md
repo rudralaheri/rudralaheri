@@ -1,15 +1,14 @@
+![banner](/assets/banner.svg "neon blob banner")
+
 ## Hi there 👋
 
+Minimal, chaotic, unmistakable.
 
-**rudralaheri/rudralaheri** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**I make small, surprising things.**
 
-Here are some ideas to get you started:
+- 🔭 Currently tinkering with generative art & tiny tools
+- 🌱 Learning algorithms that look like accidents
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: 
+---
+
+📫 Reach me: [Email](mailto:your.email@example.com) • [Twitter](https://twitter.com/USERNAME)
