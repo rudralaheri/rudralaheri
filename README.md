@@ -1,10 +1,10 @@
-![banner](/assets/github-banner.svg "i clicked this")
+![banner](/assets/github banner.jpg "i clicked this")
 
-## Hi there, I'm using GitHub👋
+# Hey there, I'm using GitHub👋
 
 I think I may like computers :O
 
-**I make small, surprising things.**
+**I like to experiment around and find out.**
 
 - 🔭 still learning, still exploring
 - 🌱 ML seems interesting ngl
