@@ -1,14 +1,14 @@
-![banner](/assets/banner.svg "neon blob banner")
+![banner](/assets/github-banner.svg "i clicked this")
 
-## Hi there 👋
+## Hi there, I'm using GitHub👋
 
-Minimal, chaotic, unmistakable.
+I think I may like computers :O
 
 **I make small, surprising things.**
 
-- 🔭 Currently tinkering with generative art & tiny tools
-- 🌱 Learning algorithms that look like accidents
+- 🔭 still learning, still exploring
+- 🌱 ML seems interesting ngl
 
 ---
 
-📫 Reach me: [Email](mailto:your.email@example.com) • [Twitter](https://twitter.com/USERNAME)
+📫 Reach me: [Email](mailto:rudralaheri05@gmail.com)
