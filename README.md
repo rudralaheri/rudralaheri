@@ -1,4 +1,4 @@
-![banner](/assets/github banner.jpg "i clicked this")
+![banner](/assets/github banner.svg "i clicked this")
 
 # Hey there, I'm using GitHub👋
 
